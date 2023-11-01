@@ -37,18 +37,18 @@ const Contact = () => {
             Let's Work <br /> together
           </h1>
           <h3 className="mt-2 font-bold text-xl text-white">Mail</h3>
-          <span className="text-[14px]">contactskar@gmail.com</span>
-          <h3 className="mt-2 font-bold text-xl text-white">Phone</h3>
-          <span className="text-[14px]">87657887</span>
+          <span className="text-[14px]"> <a href = "mailto: abduldevelop@gmail.com">abduldevelop@gmail.com</a></span>
+          {/* <h3 className="mt-2 font-bold text-xl text-white">Phone</h3>
+          <span className="text-[14px]">87657887</span> */}
         </div>
-        <div className="flex flex-row mt-10">
-          <form ref={form} onSubmit={sendEmail}>
+        <div className="flex flex-row mt-10 ">
+          <form ref={form} onSubmit={sendEmail} className="mx-auto">
             <input
               type="text"
               required
               name="name"
               placeholder="Name"
-              className="py-3 px-4 w-[350px] bg-transparent  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-xl outline-none border-none "
+              className=" sm:w-[200px]  py-3 px-4 xl:w-[350px] bg-transparent  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-xl outline-none border-none "
             />
             <br />
             <input
@@ -56,7 +56,7 @@ const Contact = () => {
               required
               name="email"
               placeholder="Email"
-              className="py-3 px-4 w-[350px] my-5 bg-transparent  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-xl outline-none border-none "
+              className="sm:w-[200px]  py-3 px-4 xl:w-[350px] my-5 bg-transparent  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-xl outline-none border-none "
             />
             <br />
 
@@ -66,7 +66,7 @@ const Contact = () => {
               required
               name="message"
               placeholder="Message"
-              className="py-3 px-4 w-[350px] bg-transparent  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-xl outline-none border-none "
+              className="sm:w-[200px]  py-3 px-4 xl:w-[350px] bg-transparent  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-xl outline-none border-none "
             />
             <br />
             {error && (
@@ -82,7 +82,7 @@ const Contact = () => {
             <br />
             <button
               type="submit"
-              className="py-3 px-4 w-[350px] bg-transparent  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-xl outline-none border-none  "
+              className="py-3 px-4 w-[250px] xl:w-[350px] bg-transparent  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-xl outline-none border-none  "
             >
               Submit
             </button>
