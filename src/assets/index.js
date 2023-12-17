@@ -4,6 +4,8 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import eCom from "./e-com.png";
+import live from "./live.jpg";
 
 import github from "./github.png";
 import linkedin from "./linkedin.png";
@@ -63,4 +65,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  eCom,
+  live,
 };

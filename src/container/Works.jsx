@@ -1,8 +1,9 @@
 import React from "react";
 import { styles } from "../styles";
 import { projects } from "../constants";
-import { github } from "../assets";
+import { github, live } from "../assets";
 import { SectionWrapper } from "../hoc";
+import { Link } from "react-router-dom";
 const Works = () => {
   return (
     <>
@@ -32,13 +33,28 @@ const Works = () => {
               <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
                 <div
                   onClick={() => window.open(source_code_link, "_blank")}
-                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center ml-5 cursor-pointer"
                 >
-                  <img
-                    src={github}
-                    alt="source code"
-                    className="w-1/2 h-1/2 object-contain"
-                  />
+                  <Link to={project.source_code_link}>
+                    <img
+                      src={github}
+                      alt="source code"
+                      className="w-1/2 h-1/2 object-contain m-auto"
+                    />
+                  </Link>
+                </div>
+
+                <div
+                  onClick={() => window.open(source_code_link, "_blank")}
+                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center ml-5 cursor-pointer"
+                >
+                  <Link to={project.live_web_url}>
+                    <img
+                      src={live}
+                      alt="source code"
+                      className="w-10 h-10 object-contain m-auto rounded-full bg-transparent "
+                    />
+                  </Link>
                 </div>
               </div>
             </div>

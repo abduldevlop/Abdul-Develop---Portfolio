@@ -14,7 +14,7 @@ import {
   git,
   figma,
   docker,
-  carrent,
+  eCom,
   jobit,
   tripguide,
   nextjs,
@@ -134,25 +134,26 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "E-com",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Ready to embark on a seamless and enjoyable online shopping spree? Visit our E-Commerce website and explore the world of possibilities",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "appwriter",
+        color: "pink-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: eCom,
+    source_code_link: "https://github.com/abduldevlop/e-com",
+    live_web_url: "https://ecom-abdul.netlify.app/",
   },
   {
     name: "Job IT",

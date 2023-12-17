@@ -37,7 +37,10 @@ const Contact = () => {
             Let's Work <br /> together
           </h1>
           <h3 className="mt-2 font-bold text-xl text-white">Mail</h3>
-          <span className="text-[14px]"> <a href = "mailto: abduldevelop@gmail.com">abduldevelop@gmail.com</a></span>
+          <span className="text-[14px]">
+            {" "}
+            <a href="mailto: abduldevelop@gmail.com">abduldevelop@gmail.com</a>
+          </span>
           {/* <h3 className="mt-2 font-bold text-xl text-white">Phone</h3>
           <span className="text-[14px]">87657887</span> */}
         </div>
