@@ -4,8 +4,6 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import eCom from "./e-com.png";
-import live from "./live.jpg";
 
 import github from "./github.png";
 import linkedin from "./linkedin.png";
@@ -29,13 +27,13 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import nextjs from "./tech/nextjs.svg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 import abdul from "./abdul.png";
+import sassWeb from "./sass-web.png";
+import mern from "./mern.png";
 
 export {
+  mern,
+  sassWeb,
   twitter,
   linkedin,
   nextjs,
@@ -62,9 +60,4 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
-  eCom,
-  live,
 };

@@ -1,7 +1,7 @@
 import React from "react";
 import { styles } from "../styles";
 import { projects } from "../constants";
-import { github, live } from "../assets";
+import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { Link } from "react-router-dom";
 const Works = () => {
@@ -46,15 +46,9 @@ const Works = () => {
 
                 <div
                   onClick={() => window.open(source_code_link, "_blank")}
-                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center ml-5 cursor-pointer"
+                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center ml-5 cursor-pointer text-red-500 text-[12px] font-bold  "
                 >
-                  <Link to={project.live_web_url}>
-                    <img
-                      src={live}
-                      alt="source code"
-                      className="w-10 h-10 object-contain m-auto rounded-full bg-transparent "
-                    />
-                  </Link>
+                  <Link to={project.live_web_url}>Live</Link>
                 </div>
               </div>
             </div>

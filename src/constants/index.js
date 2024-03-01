@@ -1,6 +1,4 @@
 import {
-  mobile,
-  backend,
   web,
   javascript,
   typescript,
@@ -14,10 +12,9 @@ import {
   git,
   figma,
   docker,
-  eCom,
-  jobit,
-  tripguide,
   nextjs,
+  sassWeb,
+  mern,
 } from "../assets";
 
 export const navLinks = [
@@ -37,16 +34,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "MERN Developer",
+    icon: mern,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Next JS Developer",
+    icon: nextjs,
   },
 ];
 
@@ -134,68 +127,23 @@ const testimonials = [
 
 const projects = [
   {
-    name: "E-com",
+    name: "Sass UI Design",
     description:
-      "Ready to embark on a seamless and enjoyable online shopping spree? Visit our E-Commerce website and explore the world of possibilities",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "appwriter",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-    ],
-    image: eCom,
-    source_code_link: "https://github.com/abduldevlop/e-com",
-    live_web_url: "https://ecom-abdul.netlify.app/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Discover the Future of UI Design with Sass, Next.js, and Tailwind CSS - Welcome to the forefront of web design innovation at Sass UI Design. Harnessing the power of Next.js and Tailwind CSS, we're redefining the standards of user interface excellence.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind css",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: sassWeb,
+    source_code_link: "https://github.com/abduldevlop/sass-web-UI-UX",
+    live_web_url:
+      "https://sass-web-ui-eu60tzcue-abduldevlops-projects.vercel.app/",
   },
 ];
 

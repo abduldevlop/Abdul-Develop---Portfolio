@@ -51,7 +51,7 @@ const Contact = () => {
               required
               name="name"
               placeholder="Name"
-              className=" sm:w-[200px]  py-3 px-4 xl:w-[350px] bg-transparent  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-xl outline-none border-none "
+              className=" sm:w-[200px] w-full  py-3 px-4 xl:w-[350px] bg-transparent  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-xl outline-none border-none "
             />
             <br />
             <input
@@ -59,7 +59,7 @@ const Contact = () => {
               required
               name="email"
               placeholder="Email"
-              className="sm:w-[200px]  py-3 px-4 xl:w-[350px] my-5 bg-transparent  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-xl outline-none border-none "
+              className="sm:w-[200px] w-full  py-3 px-4 xl:w-[350px] my-5 bg-transparent  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-xl outline-none border-none "
             />
             <br />
 
@@ -69,7 +69,7 @@ const Contact = () => {
               required
               name="message"
               placeholder="Message"
-              className="sm:w-[200px]  py-3 px-4 xl:w-[350px] bg-transparent  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-xl outline-none border-none "
+              className="sm:w-[200px] w-full  py-3 px-4 xl:w-[350px] my-5 bg-transparent  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-xl outline-none border-none "
             />
             <br />
             {error && (
