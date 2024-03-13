@@ -30,8 +30,10 @@ import nextjs from "./tech/nextjs.svg";
 import abdul from "./abdul.png";
 import sassWeb from "./sass-web.png";
 import mern from "./mern.png";
+import realested from "./realested.png";
 
 export {
+  realested,
   mern,
   sassWeb,
   twitter,

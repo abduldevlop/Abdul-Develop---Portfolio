@@ -38,11 +38,12 @@ const Contact = () => {
           </h1>
           <h3 className="mt-2 font-bold text-xl text-white">Mail</h3>
           <span className="text-[14px]">
-            {" "}
             <a href="mailto: abduldevelop@gmail.com">abduldevelop@gmail.com</a>
           </span>
-          {/* <h3 className="mt-2 font-bold text-xl text-white">Phone</h3>
-          <span className="text-[14px]">87657887</span> */}
+          <h3 className="mt-2 font-bold text-xl text-white">Phone</h3>
+          <a href="tel:9339254656" className="text-[14px]">
+            9339254656
+          </a>
         </div>
         <div className="flex flex-row mt-10 ">
           <form ref={form} onSubmit={sendEmail} className="mx-auto">

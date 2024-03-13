@@ -15,6 +15,7 @@ import {
   nextjs,
   sassWeb,
   mern,
+  realested,
 } from "../assets";
 
 export const navLinks = [
@@ -142,8 +143,33 @@ const projects = [
     ],
     image: sassWeb,
     source_code_link: "https://github.com/abduldevlop/sass-web-UI-UX",
-    live_web_url:
-      "https://sass-web-ui-eu60tzcue-abduldevlops-projects.vercel.app/",
+    live_web_url: "https://sass-web-ui-ux.vercel.app/",
+  },
+  {
+    name: "Booking",
+    description:
+      "Our website is built using cutting-edge technologies like React.js for the frontend, Node.js for the backend, and MongoDB for the database.With React.js, we ensure a seamless user experience, enabling dynamic and responsive interfaces.",
+    tags: [
+      {
+        name: "react js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "sass",
+        color: "orange-text-gradien",
+      },
+      {
+        name: "node js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongo db",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: realested,
+    source_code_link: "https://github.com/abduldevlop/booking.com/tree/main",
+    live_web_url: "https://booking-com-murex.vercel.app/",
   },
 ];
 
